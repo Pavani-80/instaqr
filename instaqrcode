@@ -1,0 +1,8 @@
+#Description: Generate a QR code using python
+pip install qrcode
+#import the library
+import qrcode
+#Generate the QR code
+img = qrcode.make('https://www.instagram.com/pavnireddy.c/')
+#Save the image as an image file like (.jpg)
+img.save('InstaQRcode.jpg')
